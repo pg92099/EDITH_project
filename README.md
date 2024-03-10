@@ -1,45 +1,60 @@
-# EDITH
-It is a virtual voice command desktop application develop in python that can act as your personal assistant.
-It uses voice recognition and speech synthesis.
-It basically based on these three principles:
-1.  Speech to text : In this speech is converted into text.
-2.  Text analysing : Here the converted text are analysed and program maps the word to function &     parameters to create commands that computer can understand.
-3.  Interpret Command : Here the mapped computer command go to the server through internet. After that a local recogniser communicate with server to judge whether command will be interpreted or not.
+# Virtual Voice Command Desktop Application
 
-Modules used:-
-pyttsx3, speech recognition, wikipedia,
-web browser, subprocess, geocoder,
-random, pyjokes, smtlib and OS.
+Welcome to the Virtual Voice Command Desktop Application! This Python-based application serves as your personal assistant, utilizing voice recognition and speech synthesis technologies to execute a variety of tasks and commands.
+
+## Overview
+
+The Virtual Voice Command Desktop Application is designed around three core principles:
+
+1. **Speech-to-Text Conversion:** Converts spoken words into text format for analysis.
+2. **Text Analysis:** Analyzes the converted text, mapping words to functions and parameters to create executable commands.
+3. **Interpretation of Commands:** Transmits mapped commands to a server for interpretation, facilitating interaction with various applications and services.
+
+## Features
+
+- **In-built Voice Command Game:** Enjoy an interactive voice-controlled gaming experience.
+- **Face Detection:** Detect faces using the application's built-in capabilities.
+- **Voice Command Dictionary:** Access a comprehensive dictionary of voice commands for efficient interaction.
+- **Location Services:** Retrieve information about your current location.
+- **Music Playback:** Listen to your favorite tunes with the application's music playback feature.
+- **Weather Updates:** Stay informed about the current weather conditions.
+- **Screenshots:** Capture screenshots directly through voice commands.
+- **Time Display:** Get accurate time information with a simple voice command.
+- **PC Control:** Shutdown or restart your PC effortlessly.
+- **Access to Internal Applications:** Open applications like notepad, calculator, and camera using voice commands.
+- **Personalized Greetings:** Receive warm greetings personalized to your preferences.
+- **Query Responses:** Receive responses to your queries with ease.
+- **Email Sending:** Send emails seamlessly (with minimal sender email security settings).
+- **Access to Wikipedia, YouTube, and Shopping Websites:** Explore a wealth of information and entertainment online.
+
+## Pros and Cons
+
+### Pros:
+
+1. **Voice Command Recognition:** Seamlessly recognizes voice commands for efficient interaction.
+2. **Control Over Applications:** Provides control over various device applications for enhanced productivity.
+3. **Location-Based Services:** Offers location-specific services for added convenience.
+4. **Entertainment Features:** Keeps users entertained with in-built games and jokes.
+5. **Data Import and Export:** Facilitates easy import and export of data for user convenience.
+6. **Voice-Enabled Searching:** Enables effortless searching through voice commands.
+
+### Cons:
+
+1. **Pronunciation Accuracy:** Accuracy in pronunciation affects listening capabilities.
+2. **Limited Language Support:** Currently supports English language only.
+3. **Internet Dependency:** Relies on stable internet connection for optimal performance.
+4. **Lack of Graphical User Interface (GUI):** Operates without a graphical interface.
+5. **Limited Interactivity:** Interaction is limited due to the absence of AI integration.
+
+## Usage
+
+To use the Virtual Voice Command Desktop Application, follow these steps:
+
+1. Install the required Python modules listed in the project description.
+2. Run the application script in a Python environment.
+3. Follow the voice prompts and commands provided by the application for desired actions.
 
 
+## Feedback and Support
 
-Features:-
-1.In built voice command game 
-2.Face detection
-3.voice command dictionary
-4.tell about your location
-5.Play music
-6.Weather Condition
-7.take screenshots
-8.Time 
-9.Switch off or restart your pc
-10.Open internal applications like notepad, calculator, camera,etc
-11.wish you
-12.respond your query 
-13.send email (But sender email should have least level of security)
-14. open wikipedia, youtube, shopping websites,etc
-  
-Pros:
-1.Recognize voice commands.
-2.Controls various application of device.
-3.Provide service regarding and related to your location.
-4.Entertain you by its inbuilt game and jokes.
-5.Allow you to import and export data.
-6.Search anything just by voice commands.
-
-Cons:
-1.Listening problems (Accuracy in pronunciation is must)
-2.Limited language access(It understand only English language)
-3.Internet access(It require smooth internet connection for desired output)
-4.No Graphical User Interface.
-5.Less interactive(As there is no AI used)
+For feedback, bug reports, or support inquiries, please contact [pg92099@gmail.com](mailto:pg92099@gmail.com).
